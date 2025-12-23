@@ -2,7 +2,7 @@ module programcounter (
     input              clock,
     input              reset,   
     input      [31:0]  next_pc,
-    input              pc_en,
+    input              pc_en, //pc enable
     output reg [31:0]  pc
 );
 
